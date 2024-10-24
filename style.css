@@ -1,0 +1,37 @@
+nav a{
+  text-decoration: none;
+}
+.magic-box{
+  position: relative;
+  top: -70px;
+}
+.carry-img{
+  object-fit: cover;
+}
+
+.action-img{
+  background-image: url(https://images.unsplash.com/photo-1427694012323-fb5e8b0c165b?q=80&w=2378&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  min-height: 60dvh;
+  margin: 3em;
+  }
+
+body.debug .media-line{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100dvh;
+  width: 1px;
+  background-color: red;
+  left: 768px;
+  z-index: 1000000;
+}
+
+@media screen and (max-width: 768px) {
+.magic-box{
+  position: none;
+  margin-bottom: 10px;
+  
+}
+
+}
